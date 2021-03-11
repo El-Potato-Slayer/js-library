@@ -1,21 +1,27 @@
-## Book Library
+# Book Library
 In this project we created a simple book library app using javascript;
 - The app allows one to create a new book
 - Delete a book from the library,
 - Indicate if the book has been read or not.
 
-### Built with;
-Javascript
+![image](https://user-images.githubusercontent.com/43865875/110854048-0dfc4b00-82bd-11eb-86aa-48ed2647295b.png)
 
-Vs code
+[Live Demo](https://raw.githack.com/El-Potato-Slayer/js-library/library-feature/index.html)
 
-### Getting started
+## Built with
+- HTML
+- CSS
+- JavaScript
 
-Fork or clone the repository where the source code is 
-```
-https://github.com/El-Potato-Slayer/js-library.git
-```
-Go to the forked/cloned project directory and open it in the browser
+## Getting started
+
+**To get this project set up on your local machine, follow these simple steps:**
+
+1. Open Terminal.
+2. Navigate to your desired location to download the contents of this repository.
+3. Run ```git clone https://github.com/El-Potato-Slayer/js-library.git```.
+4. Run ```cd js-library```.
+5. Right click on `index.html` and open with a browser.
 
 ### Authors
 
