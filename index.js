@@ -80,7 +80,7 @@ addBook.addEventListener('click', () => {
   const title = document.getElementById('title').value;
   const author = document.getElementById('author').value;
   const pages = document.getElementById('pages').value;
-  const book = new Book(title, author, pages, false);
+  const book = new Book(author, title, pages, false);
   addBookToLibrary(book);
   const bookCard = createBookCard(bookList, book);
   createButton(bookCard, 'Delete');
