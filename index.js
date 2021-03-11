@@ -31,7 +31,11 @@ function addClickEventForDelete(buttons) {
 function addClickEventForEdit(buttons) {
   buttons.forEach((btn,index) => {
     btn.addEventListener('click', () =>{
-      myLibrary[index].hasRead = true
+      if (myLibrary[index].hasRead) {
+        myLibrary[index].hasRead = false
+      }else {
+        myLibrary[index].hasRead = true
+      }
       readElement = document.querySelectorAll('.card')[index].children[3]
       readElement.innerHTML = `Has read? ${myLibrary[index].hasRead}`
     })
