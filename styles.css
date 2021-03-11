@@ -1,23 +1,127 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  outline: none;
 }
 
-.book-container {
+h2 {
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.book-container{
   padding: 24px;
 }
 
-#book-list {
+#book-list{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 24px;
+  margin: 32px 0;
+  justify-items: center;
+  align-items: center;
 }
 
-.card {
-  background-color: gainsboro;
+.card{
+  background: linear-gradient(to bottom right, rgb(155, 93, 255), rgb(33, 2, 143));
+  width: 300px;
+  padding: 16px 8px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
-.form {
-  padding: 0 24px;
+.card h4{
+   font-size: 22px;
+   font-weight: 500;
+   margin-bottom: 16px;
 }
+
+.card p {
+  margin: 8px 0;
+}
+
+.card p:last-of-type {
+  margin-bottom: 24px;
+}
+
+.btn {
+  padding: 8px 0;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5),
+              0 5px 5px rgba(0, 0, 0, 0.1) inset;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.delete {
+  background-color: rgb(236, 68, 68);
+  width: 4rem;
+  margin-right: 8px;
+}
+
+.read {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 4rem;
+  margin-left: 8px;
+}
+
+.read:hover,
+.read:focus {
+  background-color: white;
+  color: rgb(33, 2, 143);
+  width: 4rem;
+  margin-left: 8px;
+}
+
+.form{
+  padding: 16px 24px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field{
+  width: 100%;
+  margin: 16px auto;
+}
+
+.input-field label{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.input-field input{
+  padding: 4px;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  border-bottom: 1px solid rgb(50, 50, 50);
+}
+
+.input-field input:focus{
+  border-bottom: 1px solid rgb(63, 176, 247);
+}
+
+
+
+.submit{
+  background-color: rgb(0, 192, 0);
+  width: 8rem;
+  margin: 16px auto 0 auto;
+  color: white;
+}
+
