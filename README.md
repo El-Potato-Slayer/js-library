@@ -25,13 +25,13 @@ In this project we created a simple book library app using javascript;
 
 ### Authors
 
-**Pascal Byabasaija**
-- Linkedin: [Pascal Byabasaija](https://www.linkedin.com/in/pascal-byabasaija/)
-- Github: [@Byabasaija](https://github.com/Byabasaija)
-
 **Chad-Leigh van Wyk**
 - Linkedin: [Chad-Leigh van Wyk](https://www.linkedin.com/in/chad-leigh-van-wyk/ )
 - Github: [El-Potato-Slayer](https://github.com/El-Potato-Slayer)
+
+**Pascal Byabasaija**
+- Linkedin: [Pascal Byabasaija](https://www.linkedin.com/in/pascal-byabasaija/)
+- Github: [@Byabasaija](https://github.com/Byabasaija)
 
 ### 🤝 Contributions
 
