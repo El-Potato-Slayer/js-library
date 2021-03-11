@@ -1,23 +1,23 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.book-container{
+.book-container {
   padding: 24px;
 }
 
-#book-list{
+#book-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 24px;
 }
 
-.card{
-  background-color:gainsboro;
+.card {
+  background-color: gainsboro;
 }
 
-.form{
+.form {
   padding: 0 24px;
 }
