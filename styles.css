@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,11 +11,11 @@ h2 {
   text-align: center;
 }
 
-.book-container{
+.book-container {
   padding: 24px;
 }
 
-#book-list{
+#book-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 24px;
@@ -24,7 +24,7 @@ h2 {
   align-items: center;
 }
 
-.card{
+.card {
   background: linear-gradient(to bottom right, rgb(155, 93, 255), rgb(33, 2, 143));
   width: 300px;
   padding: 16px 8px;
@@ -34,10 +34,10 @@ h2 {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
-.card h4{
-   font-size: 22px;
-   font-weight: 500;
-   margin-bottom: 16px;
+.card h4 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 
 .card p {
@@ -54,8 +54,9 @@ h2 {
   border: none;
   cursor: pointer;
   color: white;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5),
-              0 5px 5px rgba(0, 0, 0, 0.1) inset;
+  box-shadow:
+    0 5px 5px rgba(0, 0, 0, 0.5),
+    0 5px 5px rgba(0, 0, 0, 0.1) inset;
   transition: all 0.1s ease-in-out;
 }
 
@@ -85,26 +86,26 @@ h2 {
   margin-left: 8px;
 }
 
-.form{
+.form {
   padding: 16px 24px;
   display: grid;
   justify-content: center;
   align-items: center;
 }
 
-.input-field{
+.input-field {
   width: 100%;
   margin: 16px auto;
 }
 
-.input-field label{
+.input-field label {
   display: block;
   text-align: center;
   font-size: 20px;
   margin-bottom: 8px;
 }
 
-.input-field input{
+.input-field input {
   padding: 4px;
   width: 100%;
   border: none;
@@ -112,16 +113,13 @@ h2 {
   border-bottom: 1px solid rgb(50, 50, 50);
 }
 
-.input-field input:focus{
+.input-field input:focus {
   border-bottom: 1px solid rgb(63, 176, 247);
 }
 
-
-
-.submit{
+.submit {
   background-color: rgb(0, 192, 0);
   width: 8rem;
   margin: 16px auto 0 auto;
   color: white;
 }
-
