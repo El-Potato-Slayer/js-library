@@ -23,7 +23,7 @@ In this project we created a simple book library app using javascript;
 4. Run ```cd js-library```.
 5. Right click on `index.html` and open with a browser.
 
-### Authors
+## Authors
 
 **Chad-Leigh van Wyk**
 - Linkedin: [Chad-Leigh van Wyk](https://www.linkedin.com/in/chad-leigh-van-wyk/ )
@@ -33,13 +33,13 @@ In this project we created a simple book library app using javascript;
 - Linkedin: [Pascal Byabasaija](https://www.linkedin.com/in/pascal-byabasaija/)
 - Github: [@Byabasaija](https://github.com/Byabasaija)
 
-### 🤝 Contributions
+## 🤝 Contributions
 
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
 
-### Show your support
+## Show your support
 
 Give a ⭐️ if you like this project!
