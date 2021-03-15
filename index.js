@@ -13,9 +13,9 @@ const bookList = document.getElementById('book-list');
 const addBook = document.getElementById('submit');
 
 
-const bookFactory= (author, title, pages, hasRead) =>{
-  return {author,title,pages,hasRead}
-}
+const bookFactory = (author, title, pages, hasRead) => ({
+  author, title, pages, hasRead,
+});
 
 function addBookToLibrary(book) {
   myLibrary.push(book);
